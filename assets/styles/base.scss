@@ -1,0 +1,41 @@
+body,ol,ul,li,dl,h1,h2,h3,h4,h5,h6,p,input,textarea,a{
+			margin:0;
+			padding:0;
+			list-style:none;
+			font-family:"微软雅黑";
+			text-decoration:none;
+			font-size:0.18rem;
+		}
+input{
+	border:none;
+}
+img{
+	border:none;
+	margin:0;
+}
+@mixin useRem($device-size) {
+    //$device-size-list:$device-size,2400px,1920px,1366px,1280px,1080px,1024px;
+    $device-size-list: 800px,$device-size, 1024px, 1080px, 1280px, 1920px, 2400px;
+    //$device-size-list: $device-size,480px, 412px,414px,384px,380px,375px,360px,320px ;
+    @each $list in $device-size-list {
+        @media screen and (min-width: #{$list}) {
+            html {
+                font-size: 100px * $list/$device-size;
+            }
+        }
+    }
+}
+
+@include useRem(1920px);
+*{
+
+    box-sizing:border-box;
+}
+p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+a{
+    color:inherit;
+}

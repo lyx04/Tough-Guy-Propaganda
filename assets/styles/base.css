@@ -1,0 +1,54 @@
+@charset "UTF-8";
+body, ol, ul, li, dl, h1, h2, h3, h4, h5, h6, p, input, textarea, a {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "微软雅黑";
+  text-decoration: none;
+  font-size: 0.18rem; }
+
+input {
+  border: none; }
+
+img {
+  border: none;
+  margin: 0; }
+
+@media screen and (min-width: 800px) {
+  html {
+    font-size: 41.66667px; } }
+
+@media screen and (min-width: 1920px) {
+  html {
+    font-size: 100px; } }
+
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 53.33333px; } }
+
+@media screen and (min-width: 1080px) {
+  html {
+    font-size: 56.25px; } }
+
+@media screen and (min-width: 1280px) {
+  html {
+    font-size: 66.66667px; } }
+
+@media screen and (min-width: 1920px) {
+  html {
+    font-size: 100px; } }
+
+@media screen and (min-width: 2400px) {
+  html {
+    font-size: 125px; } }
+
+* {
+  box-sizing: border-box; }
+
+p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+
+a {
+  color: inherit; }
