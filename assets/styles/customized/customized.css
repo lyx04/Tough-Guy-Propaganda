@@ -1,0 +1,336 @@
+@import url("../base.css");
+.classify {
+  width: 100%;
+  height: 4.35rem; }
+  .classify .container {
+    padding-top: 0.55rem; }
+    .classify .container .classify_top {
+      width: 100%;
+      height: auto;
+      text-align: center; }
+      .classify .container .classify_top p {
+        font-weight: bold;
+        font-size: 0.17rem;
+        color: #333333; }
+    .classify .container .classify_only {
+      margin-top: 0.48rem;
+      padding-left: 0.8rem;
+      padding-right: 0.8rem;
+      font-size: 0; }
+      .classify .container .classify_only li {
+        width: 0.41rem;
+        height: 0.8rem;
+        text-align: center;
+        display: inline-block;
+        margin-left: 1.8rem;
+        margin-bottom: 0.1rem; }
+        .classify .container .classify_only li.width_an p {
+          margin-left: -0.1rem; }
+        .classify .container .classify_only li.yellow {
+          color: #f0dd4d; }
+        .classify .container .classify_only li.green_black {
+          color: #98ac54; }
+        .classify .container .classify_only li.green_op {
+          color: #c4d567; }
+        .classify .container .classify_only li.pink_op {
+          color: #e9cbcc; }
+        .classify .container .classify_only li.purple {
+          color: #a55d9d; }
+        .classify .container .classify_only li.orgin {
+          color: #e6b15e; }
+        .classify .container .classify_only li.bule {
+          color: #8ee2df; }
+        .classify .container .classify_only li.bule_black {
+          color: #5e8c7d; }
+        .classify .container .classify_only li.pink {
+          color: #ff99b6; }
+        .classify .container .classify_only li.purple_op {
+          color: #f5c3c1; }
+        .classify .container .classify_only li.none_margin {
+          margin: 0; }
+        .classify .container .classify_only li span {
+          display: inline-block;
+          width: 100%;
+          height: 0.4rem;
+          font-size: 0.4rem;
+          color: inherit; }
+        .classify .container .classify_only li p {
+          color: inherit;
+          margin-top: 0.05rem;
+          font-size: 0.2rem;
+          overflow: visible; }
+
+.module {
+  width: 100%;
+  height: 4.2rem;
+  background-image: url(../../image/5.png);
+  background-size: cover; }
+  .module .container .module_top {
+    padding-top: 0.5rem;
+    width: 100%;
+    height: 0.9rem;
+    text-align: center; }
+    .module .container .module_top p {
+      font-weight: bold;
+      font-size: 0.17rem;
+      color: white; }
+  .module .container .module_only {
+    width: 100%;
+    font-size: 0;
+    padding-top: 0.47rem; }
+    .module .container .module_only li {
+      width: 1.71rem;
+      margin-bottom: 0.3rem;
+      height: 0.9rem;
+      border: 1px solid white;
+      display: inline-block;
+      background-color: transparent;
+      text-align: center;
+      margin-left: 0.15rem;
+      color: white;
+      border-radius: 10px;
+      padding-top: 0.1rem; }
+      .module .container .module_only li:hover {
+        background-color: rgba(255, 255, 255, 0.3); }
+      .module .container .module_only li.margin_none {
+        margin: 0; }
+      .module .container .module_only li span {
+        color: inherit;
+        font-size: 0.4rem; }
+      .module .container .module_only li p {
+        color: inherit;
+        font-size: 0.18rem; }
+
+.advantage {
+  width: 100%;
+  height: 6.4rem; }
+  .advantage .container .advantage_top {
+    width: 100%;
+    height: 1.22rem;
+    padding-top: 0.65rem;
+    text-align: center; }
+    .advantage .container .advantage_top p {
+      color: black;
+      font-weight: bold;
+      font-size: 0.17rem; }
+  .advantage .container .advantage_only {
+    width: 100%;
+    height: 4rem;
+    font-size: 0; }
+    .advantage .container .advantage_only li {
+      width: 3.49rem;
+      height: 100%;
+      position: relative;
+      display: inline-block;
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding: 0.32rem 0.27rem 0.32rem 0.28rem;
+      margin-left: 0.28rem; }
+      .advantage .container .advantage_only li:hover .advantage_content {
+        width: 2.94rem;
+        height: 3.36rem;
+        bottom: 0;
+        top: 0;
+        line-height: 1;
+        padding-top: 1.02rem;
+        padding-left: 0.18rem;
+        padding-right: 0.18rem;
+        border-radius: 20px; }
+        .advantage .container .advantage_only li:hover .advantage_content p {
+          display: block; }
+        .advantage .container .advantage_only li:hover .advantage_content span {
+          display: block; }
+        .advantage .container .advantage_only li:hover .advantage_content .icon {
+          display: block; }
+      .advantage .container .advantage_only li.margin_none {
+        margin: 0; }
+      .advantage .container .advantage_only li.first {
+        background-image: url(../../image/6.png); }
+      .advantage .container .advantage_only li.two {
+        background-image: url(../../image/7.png); }
+      .advantage .container .advantage_only li.three {
+        background-image: url(../../image/8.png); }
+      .advantage .container .advantage_only li .advantage_content {
+        width: 2.94rem;
+        height: 0.57rem;
+        border-radius: 40px;
+        background-color: rgba(255, 255, 255, 0.8);
+        position: absolute;
+        right: 0;
+        bottom: 0.29rem;
+        line-height: 0.57rem;
+        left: 0;
+        margin: auto;
+        text-align: center;
+        padding: 0; }
+        .advantage .container .advantage_only li .advantage_content span {
+          display: block;
+          font-size: 0.2rem;
+          color: #333333; }
+        .advantage .container .advantage_only li .advantage_content p {
+          font-size: 0.16rem;
+          color: #333333;
+          display: none;
+          margin-top: 0.16rem; }
+        .advantage .container .advantage_only li .advantage_content .icon {
+          margin-bottom: 0.6rem;
+          font-size: 0.7rem;
+          color: #197ae7;
+          display: none;
+          font-weight: bold; }
+        .advantage .container .advantage_only li .advantage_content .xian {
+          width: 0.34rem;
+          height: 0.02rem;
+          background-color: black;
+          margin: 0 auto;
+          margin-top: 0.19rem;
+          display: none; }
+
+.satis {
+  width: 100%;
+  height: 5.1rem; }
+  .satis .container .satis_top {
+    text-align: center; }
+    .satis .container .satis_top p {
+      color: black;
+      font-weight: bold;
+      font-size: 0.17rem; }
+  .satis .container .satis_only {
+    width: 100%;
+    height: 2.7rem;
+    font-size: 0;
+    margin-top: 0.5rem; }
+    .satis .container .satis_only li {
+      width: 2.2rem;
+      height: 100%;
+      margin-left: 0.72rem;
+      display: inline-block;
+      text-align: center; }
+      .satis .container .satis_only li.margin_none {
+        margin: 0; }
+      .satis .container .satis_only li .satis_content {
+        width: 100%;
+        height: 100%; }
+        .satis .container .satis_only li .satis_content img {
+          width: 100%; }
+        .satis .container .satis_only li .satis_content .satis_font {
+          margin-top: 0.38rem;
+          font-size: 0.16rem;
+          color: rgba(1, 1, 1, 0.7);
+          display: block; }
+          .satis .container .satis_only li .satis_content .satis_font span {
+            display: block;
+            margin-top: 0.1rem; }
+
+.location {
+  width: 100%;
+  height: 5.92rem;
+  background-color: #eeeeee;
+  padding-top: 0.88rem; }
+  .location .container {
+    height: 100%;
+    width: 11.24rem; }
+    .location .container .form {
+      width: 4.72rem;
+      height: 100%;
+      overflow: hidden;
+      display: inline-block; }
+      .location .container .form form .input {
+        width: 100%;
+        margin-top: 0.15rem; }
+        .location .container .form form .input label {
+          display: inline-block;
+          font-size: 0.14rem;
+          width: 0.65rem;
+          color: #666666;
+          font-weight: bold;
+          text-align: right; }
+        .location .container .form form .input input {
+          padding-left: 0.1rem;
+          font-size: 0.14rem;
+          line-height: 0.14rem;
+          width: 3.98rem;
+          height: 0.35rem;
+          border: 1px solid #c0bfbe; }
+        .location .container .form form .input textarea {
+          width: 3.98rem;
+          height: 1.54rem;
+          border: 1px solid #c0bfbe;
+          vertical-align: top;
+          resize: none;
+          padding-left: 0.1rem; }
+        .location .container .form form .input.margin_none {
+          margin: 0; }
+      .location .container .form form .submit_btn {
+        width: 100%;
+        height: 0.45rem;
+        margin-top: 0.28rem;
+        padding-left: 0.65rem; }
+        .location .container .form form .submit_btn button {
+          width: 1.5rem;
+          height: 0.45rem;
+          border-radius: 30px;
+          font-size: 0.18rem;
+          background-color: #378ef8;
+          text-align: center;
+          line-height: 0.45rem;
+          margin-left: 0.16rem;
+          color: white;
+          border: 1px solid #c0c1c2; }
+          .location .container .form form .submit_btn button:focus {
+            outline: none; }
+          .location .container .form form .submit_btn button.margin_none {
+            margin: 0; }
+          .location .container .form form .submit_btn button.about_me {
+            background-color: white;
+            color: #378ef8;
+            border: 1px solid #378ef8; }
+    .location .container .location_content {
+      width: 5.8rem;
+      height: 100%;
+      overflow: hidden;
+      margin-left: 0.66rem;
+      display: inline-block; }
+      .location .container .location_content #location_map {
+        width: 100%;
+        height: 2.32rem;
+        margin-bottom: 0.19rem; }
+      .location .container .location_content .tgerweima {
+        width: 100%;
+        height: 1.26rem;
+        font-size: 0; }
+        .location .container .location_content .tgerweima .erweima_contetn {
+          width: 2.6rem;
+          height: 100%;
+          display: inline-block; }
+          .location .container .location_content .tgerweima .erweima_contetn img {
+            width: 1.26rem;
+            height: 1.26rem;
+            display: inline-block; }
+            .location .container .location_content .tgerweima .erweima_contetn img:nth-child(1) {
+              float: right; }
+        .location .container .location_content .tgerweima .tg_content {
+          display: inline-block;
+          vertical-align: top;
+          margin-left: 0.2rem;
+          padding-top: 0.15rem; }
+          .location .container .location_content .tgerweima .tg_content .tg_font {
+            width: 100%;
+            height: 0.33rem;
+            color: #7f7f7f; }
+            .location .container .location_content .tgerweima .tg_content .tg_font span {
+              margin-right: 0.1rem;
+              font-size: 0.2rem; }
+            .location .container .location_content .tgerweima .tg_content .tg_font p {
+              display: inline-block;
+              font-size: 0.16rem;
+              letter-spacing: 0px; }
+  .location .copyright {
+    width: 100%;
+    height: 0.53rem;
+    background-color: #eeeeee;
+    border-top: 1px solid #8f8f8f;
+    text-align: center;
+    line-height: 0.53rem;
+    font-size: 0.14rem;
+    color: #7f7f7f; }

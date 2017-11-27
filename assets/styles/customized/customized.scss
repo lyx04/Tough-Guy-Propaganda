@@ -1,0 +1,440 @@
+@import url('../base.css');
+//种类开始
+.classify {
+    width: 100%;
+    height: 4.35rem;
+    .container {
+        padding-top: 0.55rem;
+        .classify_top {
+            width: 100%;
+            height: auto;
+            text-align: center;
+            p {
+                font-weight: bold;
+                font-size: 0.17rem;
+                color: #333333;
+            }
+        }
+        .classify_only {
+            margin-top: 0.48rem;
+            padding-left: 0.8rem;
+            padding-right: 0.8rem;
+            font-size: 0;
+            li {
+                width: 0.41rem;
+                height: 0.8rem;
+                text-align: center;
+                display: inline-block;
+                margin-left: 1.8rem;
+                margin-bottom: 0.1rem;
+                &.width_an {
+                    p {
+                        margin-left: -0.1rem;
+                    }
+                }
+                &.yellow {
+                    color: #f0dd4d;
+                }
+                &.green_black {
+                    color: #98ac54;
+                }
+                &.green_op {
+                    color: #c4d567;
+                }
+                &.pink_op {
+                    color: #e9cbcc;
+                }
+                &.purple {
+                    color: #a55d9d;
+                }
+                &.orgin {
+                    color: #e6b15e;
+                }
+                &.bule {
+                    color: #8ee2df;
+                }
+                &.bule_black {
+                    color: #5e8c7d
+                }
+                &.pink {
+                    color: #ff99b6;
+                }
+                &.purple_op {
+                    color: #f5c3c1;
+                }
+                &.none_margin {
+                    margin: 0;
+                }
+                span {
+                    display: inline-block;
+                    width: 100%;
+                    height: 0.4rem;
+                    font-size: 0.4rem;
+                    color: inherit;
+                }
+                p {
+                    color: inherit;
+                    margin-top: 0.05rem;
+                    font-size: 0.2rem;
+                    overflow: visible;
+                }
+            }
+        }
+    }
+}
+
+//种类结束
+//模块开始
+.module {
+    width: 100%;
+    height: 4.2rem;
+    background-image: url(../../image/5.png);
+    background-size: cover;
+    .container {
+        .module_top {
+            padding-top: 0.5rem;
+            width: 100%;
+            height: 0.9rem;
+            text-align: center;
+            p {
+                font-weight: bold;
+                font-size: 0.17rem;
+                color: white;
+            }
+        }
+        .module_only {
+            width: 100%;
+            font-size: 0;
+            padding-top: 0.47rem;
+            li {
+                width: 1.71rem;
+                margin-bottom: 0.3rem;
+                height: 0.9rem;
+                border: 1px solid white;
+                display: inline-block;
+                background-color: transparent;
+                text-align: center;
+                margin-left: 0.15rem;
+                color: white;
+                border-radius: 10px;
+                padding-top: 0.1rem;
+                &:hover {
+                    background-color: rgba(255, 255, 255, 0.3)
+                }
+                &.margin_none {
+                    margin: 0;
+                }
+                span {
+                    color: inherit;
+                    font-size: 0.4rem;
+                }
+                p {
+                    color: inherit;
+                    font-size: 0.18rem;
+                }
+            }
+        }
+    }
+}
+
+//模块结束
+//优势开始
+.advantage {
+    width: 100%;
+    height: 6.4rem;
+    .container {
+        .advantage_top {
+            width: 100%;
+            height: 1.22rem;
+            padding-top: 0.65rem;
+            text-align: center;
+            p {
+                color: black;
+                font-weight: bold;
+                font-size: 0.17rem;
+            }
+        }
+        .advantage_only {
+            width: 100%;
+            height: 4rem;
+            font-size: 0;
+            li {
+                width: 3.49rem;
+                height: 100%;
+                position: relative;
+                display: inline-block;
+                background-size: cover;
+                background-repeat: no-repeat;
+                padding: 0.32rem 0.27rem 0.32rem 0.28rem;
+                margin-left: 0.28rem;
+                &:hover {
+                    .advantage_content {
+                        width: 2.94rem;
+                        height: 3.36rem;
+                        bottom: 0;
+                        top: 0;
+                        line-height: 1;
+                        padding-top: 1.02rem;
+                        padding-left: 0.18rem;
+                        padding-right: 0.18rem;
+                        border-radius: 20px;
+                        p {
+                            display: block;
+                        }
+                        span {
+                            display: block;
+                        }
+                        .icon {
+                            display: block;
+                        }
+                    }
+                }
+                &.margin_none {
+                    margin: 0;
+                }
+                &.first {
+                    background-image: url(../../image/6.png);
+                }
+                &.two {
+                    background-image: url(../../image/7.png)
+                }
+                &.three {
+                    background-image: url(../../image/8.png)
+                }
+                .advantage_content {
+                    width: 2.94rem;
+                    height: 0.57rem;
+                    border-radius: 40px;
+                    background-color: rgba(255, 255, 255, 0.8);
+                    position: absolute;
+                    right: 0;
+                    bottom: 0.29rem;
+                    line-height: 0.57rem;
+                    left: 0;
+                    margin: auto;
+                    text-align: center;
+                    padding: 0;
+                    span {
+                        display: block;
+                        font-size: 0.2rem;
+                        color: #333333;
+                    }
+                    p {
+                        font-size: 0.16rem;
+                        color: #333333;
+                        display: none;
+                        margin-top: 0.16rem;
+                    }
+                    .icon {
+                        margin-bottom: 0.6rem;
+                        font-size: 0.7rem;
+                        color: #197ae7;
+                        display: none;
+                        font-weight: bold;
+                    }
+                    .xian {
+                        width: 0.34rem;
+                        height: 0.02rem;
+                        background-color: black;
+                        margin: 0 auto;
+                        margin-top: 0.19rem;
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//优势结束
+//满意开始
+.satis {
+    width: 100%;
+    height: 5.1rem;
+    .container {
+        .satis_top {
+            text-align: center;
+            p {
+                color: black;
+                font-weight: bold;
+                font-size: 0.17rem;
+            }
+        }
+        .satis_only {
+            width: 100%;
+            height: 2.7rem;
+            font-size: 0;
+            margin-top: 0.5rem;
+            li {
+                width: 2.2rem;
+                height: 100%;
+                margin-left: 0.72rem;
+                display: inline-block;
+                text-align: center;
+                &.margin_none {
+                    margin: 0;
+                }
+                .satis_content {
+                    width: 100%;
+                    height: 100%;
+                    img {
+                        width: 100%;
+                    }
+                    .satis_font {
+                        margin-top: 0.38rem;
+                        font-size: 0.16rem;
+                        color: rgba(1, 1, 1, 0.7);
+                        display: block;
+                        span {
+                            display: block;
+                            margin-top: 0.1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//满意结束
+//表单开始
+.location {
+    width: 100%;
+    height: 5.92rem;
+    background-color: #eeeeee;
+    padding-top: 0.88rem;
+    .container {
+        height:100%;
+        width:11.24rem;
+        .form {
+            width: 4.72rem;
+            height: 100%;
+            overflow: hidden;
+            display: inline-block;
+            form {
+                .input {
+                    width: 100%;
+                    margin-top: 0.15rem;
+                    label {
+                        display: inline-block;
+                        font-size: 0.14rem;
+                        width: 0.65rem;
+                        color: #666666;
+                        font-weight: bold;
+                        text-align: right;
+                    }
+                    input {
+                        padding-left: 0.1rem;
+                        font-size: 0.14rem;
+                        line-height: 0.14rem;
+                        width: 3.98rem;
+                        height: 0.35rem;
+                        border: 1px solid #c0bfbe;
+                    }
+                    textarea {
+                        width: 3.98rem;
+                        height: 1.54rem;
+                        border: 1px solid #c0bfbe;
+                        vertical-align: top;
+                        resize: none;
+                        padding-left: 0.1rem;
+                    }
+                    &.margin_none{
+                        margin:0;
+                    }
+                }
+                .submit_btn {
+                    width: 100%;
+                    height: 0.45rem;
+                    margin-top: 0.28rem;
+                    padding-left: 0.65rem;
+                    button {
+                        &:focus{
+                            outline: none;
+                        }
+                        width: 1.5rem;
+                        height: 0.45rem;
+                        border-radius: 30px;
+                        font-size: 0.18rem;
+                        background-color: #378ef8;
+                        text-align: center;
+                        line-height: 0.45rem;
+                        margin-left: 0.16rem;
+                        color: white;
+                        border: 1px solid #c0c1c2;
+                        &.margin_none {
+                            margin: 0;
+                        }
+                        &.about_me {
+                            background-color: white;
+                            color: #378ef8;
+                            border: 1px solid #378ef8;
+                        }
+                    }
+                }
+            }
+        }
+        .location_content{
+            width:5.8rem;
+            height:100%;
+            overflow: hidden;
+            margin-left:0.66rem;
+            display:inline-block;
+            #location_map{
+                width:100%;
+                height:2.32rem;
+                margin-bottom:0.19rem;       
+            }
+            .tgerweima{
+                width:100%;
+                height:1.26rem;
+                font-size:0;
+                .erweima_contetn{
+                    width:2.6rem;
+                    height:100%;
+                    display:inline-block;
+                    img{
+                        width:1.26rem;
+                        height:1.26rem;
+                        display:inline-block;
+                        &:nth-child(1){
+                            float:right;
+                        }
+                    }
+                }
+                .tg_content{
+                    display:inline-block;
+                    vertical-align: top;
+                    margin-left:0.2rem;
+                    padding-top:0.15rem;
+                    .tg_font{
+                        width:100%;
+                        height:0.33rem;
+                        color:#7f7f7f;
+                        span{
+                            margin-right:0.1rem;
+                            font-size:0.2rem;
+                        }
+                        p{
+                            display:inline-block;
+                            font-size:0.16rem;
+                            letter-spacing: 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .copyright{
+        width:100%;
+        height:0.53rem;
+        background-color:#eeeeee;
+        border-top:1px solid #8f8f8f;
+        text-align:center;
+        line-height:0.53rem;
+        font-size:0.14rem;
+        color:#7f7f7f;
+    }
+}
+
+//表单结束
