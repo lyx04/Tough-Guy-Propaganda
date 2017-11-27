@@ -12,9 +12,14 @@
         font-weight: bold;
         font-size: 0.17rem;
         color: #333333; }
+      .classify .container .classify_top img {
+        width: 2rem;
+        display: block;
+        margin: 0 auto;
+        margin-top: 0.1rem; }
     .classify .container .classify_only {
       margin-top: 0.48rem;
-      padding-left: 0.8rem;
+      padding-left: 0.89rem;
       padding-right: 0.8rem;
       font-size: 0; }
       .classify .container .classify_only li {
@@ -74,6 +79,11 @@
       font-weight: bold;
       font-size: 0.17rem;
       color: white; }
+    .module .container .module_top img {
+      width: 2rem;
+      display: block;
+      margin: 0 auto;
+      margin-top: 0.1rem; }
   .module .container .module_only {
     width: 100%;
     font-size: 0;
@@ -113,6 +123,11 @@
       color: black;
       font-weight: bold;
       font-size: 0.17rem; }
+    .advantage .container .advantage_top img {
+      width: 2rem;
+      display: block;
+      margin: 0 auto;
+      margin-top: 0.1rem; }
   .advantage .container .advantage_only {
     width: 100%;
     height: 4rem;
@@ -195,6 +210,11 @@
       color: black;
       font-weight: bold;
       font-size: 0.17rem; }
+    .satis .container .satis_top img {
+      width: 2rem;
+      display: block;
+      margin: 0 auto;
+      margin-top: 0.1rem; }
   .satis .container .satis_only {
     width: 100%;
     height: 2.7rem;
@@ -229,7 +249,7 @@
   padding-top: 0.88rem; }
   .location .container {
     height: 100%;
-    width: 11.24rem; }
+    width: 11.6rem; }
     .location .container .form {
       width: 4.72rem;
       height: 100%;
@@ -241,7 +261,7 @@
         .location .container .form form .input label {
           display: inline-block;
           font-size: 0.14rem;
-          width: 0.65rem;
+          width: 0.9rem;
           color: #666666;
           font-weight: bold;
           text-align: right; }
@@ -249,11 +269,11 @@
           padding-left: 0.1rem;
           font-size: 0.14rem;
           line-height: 0.14rem;
-          width: 3.98rem;
+          width: 3.7rem;
           height: 0.35rem;
           border: 1px solid #c0bfbe; }
         .location .container .form form .input textarea {
-          width: 3.98rem;
+          width: 3.7rem;
           height: 1.54rem;
           border: 1px solid #c0bfbe;
           vertical-align: top;
@@ -286,7 +306,7 @@
             color: #378ef8;
             border: 1px solid #378ef8; }
     .location .container .location_content {
-      width: 5.8rem;
+      width: 6.1rem;
       height: 100%;
       overflow: hidden;
       margin-left: 0.66rem;

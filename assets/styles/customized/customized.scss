@@ -14,10 +14,16 @@
                 font-size: 0.17rem;
                 color: #333333;
             }
+            img{
+                width:2rem;
+                display:block;
+                margin:0 auto;
+                margin-top:0.1rem;
+            }
         }
         .classify_only {
             margin-top: 0.48rem;
-            padding-left: 0.8rem;
+            padding-left: 0.89rem;
             padding-right: 0.8rem;
             font-size: 0;
             li {
@@ -101,6 +107,12 @@
                 font-size: 0.17rem;
                 color: white;
             }
+            img{
+                width:2rem;
+                display:block;
+                margin:0 auto;
+                 margin-top:0.1rem;
+            }
         }
         .module_only {
             width: 100%;
@@ -152,6 +164,12 @@
                 color: black;
                 font-weight: bold;
                 font-size: 0.17rem;
+            }
+            img{
+                width:2rem;
+                display:block;
+                margin:0 auto;
+                 margin-top:0.1rem;
             }
         }
         .advantage_only {
@@ -259,6 +277,12 @@
                 font-weight: bold;
                 font-size: 0.17rem;
             }
+            img{
+                width:2rem;
+                display:block;
+                margin:0 auto;
+                 margin-top:0.1rem;
+            }
         }
         .satis_only {
             width: 100%;
@@ -305,7 +329,7 @@
     padding-top: 0.88rem;
     .container {
         height:100%;
-        width:11.24rem;
+        width:11.6rem;
         .form {
             width: 4.72rem;
             height: 100%;
@@ -318,7 +342,7 @@
                     label {
                         display: inline-block;
                         font-size: 0.14rem;
-                        width: 0.65rem;
+                        width:0.9rem;
                         color: #666666;
                         font-weight: bold;
                         text-align: right;
@@ -327,12 +351,12 @@
                         padding-left: 0.1rem;
                         font-size: 0.14rem;
                         line-height: 0.14rem;
-                        width: 3.98rem;
+                        width:  3.7rem;
                         height: 0.35rem;
                         border: 1px solid #c0bfbe;
                     }
                     textarea {
-                        width: 3.98rem;
+                        width: 3.7rem;
                         height: 1.54rem;
                         border: 1px solid #c0bfbe;
                         vertical-align: top;
@@ -375,7 +399,7 @@
             }
         }
         .location_content{
-            width:5.8rem;
+            width:6.1rem;
             height:100%;
             overflow: hidden;
             margin-left:0.66rem;
