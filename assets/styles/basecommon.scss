@@ -1,0 +1,214 @@
+//nav开始
+nav {
+    width: 100%;
+    height: 0.66rem;
+    .container {
+        width: 12rem;
+        .logo {
+            width: 1.44rem;
+            height: 100%;
+            display: inline-block;
+            padding-top: 0.1rem;
+            img {
+                width: 100%;
+            }
+        }
+        .nav_li {
+            float: right;
+            font-size: 0;
+            li {
+                display: inline-block;
+                width: auto;
+                line-height: 0.66rem;
+                font-size: 0.16rem;
+                border-top: 3px solid transparent;
+                margin-left: 0.6rem;
+                a {
+                    display: inline-block;
+                    width: 100%;
+                    height: 100%;
+                }
+                &.margin_none {
+                    margin: 0;
+                }
+                &:hover {
+                    color: #4192ed;
+                    border-top: 3px solid #4192ed;
+                }
+            }
+        }
+    }
+}
+
+//nav结束
+//banner开始
+.banner {
+    width: 100%;
+    height: 5rem;
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+        .swiper-wrapper {
+            width: 100%;
+            height: 100%;
+            .swiper-slide {
+                width: 100%;
+                height: 100%;
+                background-size: 100% 100%;
+                background-position: top center;
+                &.first {
+                    background-image: url(../image/index/banner1.png);
+                }
+                &.two {
+                    background-image: url(../image/index/banner2.png)
+                }
+                &.three {
+                    background-image: url(../image/index/banner6.png)
+                }
+            }
+        }
+    }
+}
+
+//banner结束
+//表单开始
+.location {
+    width: 100%;
+    height: 5.92rem;
+    background-color: #eeeeee;
+    padding-top: 0.88rem;
+    .container {
+        height:100%;
+        width:11.6rem;
+        .form {
+            width: 4.72rem;
+            height: 100%;
+            overflow: hidden;
+            display: inline-block;
+            form {
+                .input {
+                    width: 100%;
+                    margin-top: 0.15rem;
+                    label {
+                        display: inline-block;
+                        font-size: 0.14rem;
+                        width:0.9rem;
+                        color: #666666;
+                        font-weight: bold;
+                        text-align: right;
+                    }
+                    input {
+                        padding-left: 0.1rem;
+                        font-size: 0.14rem;
+                        line-height: 0.14rem;
+                        width:  3.7rem;
+                        height: 0.35rem;
+                        border: 1px solid #c0bfbe;
+                    }
+                    textarea {
+                        width: 3.7rem;
+                        height: 1.54rem;
+                        border: 1px solid #c0bfbe;
+                        vertical-align: top;
+                        resize: none;
+                        padding-left: 0.1rem;
+                    }
+                    &.margin_none{
+                        margin:0;
+                    }
+                }
+                .submit_btn {
+                    width: 100%;
+                    height: 0.45rem;
+                    margin-top: 0.28rem;
+                    padding-left: 0.65rem;
+                    button {
+                        &:focus{
+                            outline: none;
+                        }
+                        width: 1.5rem;
+                        height: 0.45rem;
+                        border-radius: 30px;
+                        font-size: 0.18rem;
+                        background-color: #378ef8;
+                        text-align: center;
+                        line-height: 0.45rem;
+                        margin-left: 0.16rem;
+                        color: white;
+                        border: 1px solid #c0c1c2;
+                        &.margin_none {
+                            margin: 0;
+                        }
+                        &.about_me {
+                            background-color: white;
+                            color: #378ef8;
+                            border: 1px solid #378ef8;
+                        }
+                    }
+                }
+            }
+        }
+        .location_content{
+            width:6.1rem;
+            height:100%;
+            overflow: hidden;
+            margin-left:0.66rem;
+            display:inline-block;
+            #location_map{
+                width:100%;
+                height:2.32rem;
+                margin-bottom:0.19rem;       
+            }
+            .tgerweima{
+                width:100%;
+                height:1.26rem;
+                font-size:0;
+                .erweima_contetn{
+                    width:2.6rem;
+                    height:100%;
+                    display:inline-block;
+                    img{
+                        width:1.26rem;
+                        height:1.26rem;
+                        display:inline-block;
+                        &:nth-child(1){
+                            float:right;
+                        }
+                    }
+                }
+                .tg_content{
+                    display:inline-block;
+                    vertical-align: top;
+                    margin-left:0.2rem;
+                    padding-top:0.15rem;
+                    .tg_font{
+                        width:100%;
+                        height:0.33rem;
+                        color:#7f7f7f;
+                        span{
+                            margin-right:0.1rem;
+                            font-size:0.2rem;
+                        }
+                        p{
+                            display:inline-block;
+                            font-size:0.16rem;
+                            letter-spacing: 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .copyright{
+        width:100%;
+        height:0.53rem;
+        background-color:#eeeeee;
+        border-top:1px solid #8f8f8f;
+        text-align:center;
+        line-height:0.53rem;
+        font-size:0.14rem;
+        color:#7f7f7f;
+    }
+}
+
+//表单结束
