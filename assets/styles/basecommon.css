@@ -29,6 +29,9 @@ nav {
         nav .container .nav_li li:hover {
           color: #4192ed;
           border-top: 3px solid #4192ed; }
+        nav .container .nav_li li.active {
+          color: #4192ed;
+          border-top: 3px solid #4192ed; }
 
 .banner {
   width: 100%;
@@ -94,7 +97,7 @@ nav {
         width: 100%;
         height: 0.45rem;
         margin-top: 0.28rem;
-        padding-left: 0.65rem; }
+        padding-left: 0.9rem; }
         .location .container .form form .submit_btn button {
           width: 1.5rem;
           height: 0.45rem;
@@ -163,3 +166,91 @@ nav {
     line-height: 0.53rem;
     font-size: 0.14rem;
     color: #7f7f7f; }
+
+.link {
+  width: 100%;
+  height: 5.22rem;
+  background-image: url(../image/index/20.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  margin-bottom: 0.6rem; }
+  .link .container .link_top {
+    width: 100%;
+    height: 1.13rem;
+    padding-top: 0.6rem;
+    text-align: center;
+    margin-bottom: 0.26rem; }
+    .link .container .link_top p {
+      font-size: 0.17rem;
+      color: white;
+      margin-bottom: 0.1rem; }
+    .link .container .link_top img {
+      width: 2rem; }
+  .link .container .link_content .link_li {
+    background-color: white;
+    width: 11.04rem;
+    height: 3.85rem;
+    margin: 0 auto;
+    box-shadow: 0 0 10px #007AFF;
+    padding: 0.27rem 0.45rem 0.22rem 0;
+    font-size: 0; }
+    .link .container .link_content .link_li li {
+      margin-left: 0.33rem;
+      margin-bottom: 0.3rem;
+      width: 1.43rem;
+      height: 1.52rem;
+      border: 1px solid #333;
+      display: inline-block; }
+      .link .container .link_content .link_li li img {
+        width: 100%; }
+
+.nav {
+  width: 2.05rem;
+  height: 3.07rem;
+  position: fixed;
+  left: 25%;
+  margin-left: -20%;
+  top: 3.3rem; }
+  .nav .nav_title {
+    width: 90%;
+    height: 0.57rem;
+    background-color: #4192ed;
+    text-align: center;
+    padding-top: 0.07rem;
+    margin: 0 auto;
+    padding-bottom: 0.1rem;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px; }
+    .nav .nav_title p {
+      width: 100%;
+      font-size: 0.17rem; }
+    .nav .nav_title span {
+      display: inline-block;
+      font-size: 0.14rem; }
+  .nav .nev_li {
+    width: 100%;
+    height: 2.8rem;
+    text-align: center;
+    padding: 0 0.13rem;
+    border: 1px solid #4192ed;
+    border-radius: 10px;
+    background-color: white; }
+    .nav .nev_li li {
+      width: 100%;
+      height: 0.53rem;
+      line-height: 0.53rem;
+      color: #333333;
+      font-size: 0.18rem;
+      border-bottom: 1px dashed #969696; }
+      .nav .nev_li li p {
+        text-align: center;
+        font-size: inherit;
+        color: inherit; }
+        .nav .nev_li li p a {
+          display: inline-block;
+          width: 100%;
+          height: 100%; }
+      .nav .nev_li li.active {
+        color: #4192ed;
+        border-bottom-color: #4192ed; }

@@ -1,0 +1,210 @@
+@import url('../base.css');
+@import url('../basecommon.css');
+//优点开始
+.advantage {
+    width: 100%;
+    height: 9.25rem;
+    background-color: #f7f7f7;
+    .advantage_top {
+        width: 100%;
+        height: 1.37rem;
+        text-align: center;
+        padding-top: 0.65rem;
+        p {
+            font-weight:bold;
+            font-size: 0.17rem;
+            color: #333;
+            margin-bottom: 0.1rem;
+        }
+        img {
+            width: 2rem;
+            margin-bottom: 0.05rem;
+        }
+        span {
+            display: block;
+            font-size: 0.16rem;
+            color: #999999;
+        }
+    }
+    .advantage_content {
+        width: 100%;
+        margin-top: 0.55rem;
+        position: relative;
+        li {
+            width: 2.6rem;
+            height: auto;
+            position: absolute;
+            img {
+                width: 0.51rem;
+                height: 0.51rem;
+                margin-bottom: 0.17rem;
+            }
+            .advantage_title {
+                font-size: 0.18rem;
+                color: #fda902;
+                font-weight: bold;
+                p {
+                    font-size: inherit;
+                    color: inherit;
+                }
+            }
+            .advantage_content_font {
+                font-size: 0.14rem;
+                color: #535353;
+                p {
+                    margin-top: 0.04rem;
+                    font-size: inherit;
+                    color: #535353;
+                }
+            }
+            &.plana {
+                left: 0.42;
+                top: 0.44rem;
+            }
+            &.planb {
+                left: 1.49rem;
+                top: 3rem;
+            }
+            &.planc {
+                left: 4.6rem;
+                top: 4.64rem;
+            }
+            &.pland {
+                left: 8.26rem;
+                top: 3rem;
+            }
+            &.plane {
+                left: 8.8rem;
+                top: 0.5rem;
+            }
+        }
+        .center_img {
+            width: 4.80rem;
+            height: 4.33 rem;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
+
+//优点结束
+//思路开始
+.thinking {
+    width: 100%;
+    height: 5rem;
+    background-image:url(../../image/plan/00.png);
+    background-position:center;
+    background-color: white;
+    .container {
+        .thinking_top {
+            padding-top: 0.52rem;
+            width: 100%;
+            height: 1.77rem;
+            text-align: center;
+            p {
+                font-weight:bold;
+                font-size: 0.17rem;
+                color: #333;
+                margin-bottom: 0.1rem;
+            }
+            img {
+                width: 2rem;
+                margin-bottom: 0.01rem;
+            }
+            span {
+                display: block;
+                font-size: 0.16rem;
+                color: #999999;
+            }
+        }
+        .thinking_content {
+            width: 100%;
+            padding-left: 0.78rem;
+            padding-right: 0.46rem;
+            font-size: 0;
+            li {
+                width: 3.33rem;
+                height: 0.7rem;
+                display: inline-block;
+                margin-left: 2.5rem;
+                margin-bottom:0.86rem;
+                font-size: 0;
+                &:hover {
+                    .thinking_con_img {
+                        &.first {
+                            background-image: url(../../image/plan/08.png)
+                        }
+                        &.two {
+                            background-image: url(../../image/plan/03.png);
+                        }
+                        &.three {
+                            background-image: url(../../image/plan/04.png);
+                        }
+                        &.firs {
+                            background-image: url(../../image/plan/02.png);
+                        }
+                    }
+                }
+                &.margin_none {
+                    margin: 0;
+                }
+                .thinking_con_img {
+                    width: 0.7rem;
+                    height: 0.7rem;
+                    display: inline-block;
+                    background-color: rgba(65, 146, 237, 0.1);
+                    text-align: center;
+                    border-radius: 50%;
+                    background-size: 90%;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    &.first {
+                        background-image: url(../../image/plan/01.png);
+                        &:hover {
+                            background-image: url(../../image/plan/08.png)
+                        }
+                    }
+                    &.two {
+                        background-image: url(../../image/plan/06.png);
+                        &:hover {
+                            background-image: url(../../image/plan/03.png);
+                        }
+                    }
+                    &.three {
+                        background-image: url(../../image/plan/07.png);
+                        &:hover {
+                            background-image: url(../../image/plan/04.png);
+                        }
+                    }
+                    &.firs {
+                        background-image: url(../../image/plan/05.png);
+                        &:hover {
+                            background-image: url(../../image/plan/02.png);
+                        }
+                    }
+                }
+                .thinking_con_font {
+                    width: 2.4rem;
+                    height: 100%;
+                    float: right;
+                    h5 {
+                        font-size: 0.16rem;
+                        color: #333333;
+                        margin-bottom: 0.15rem;
+                    }
+                    p {
+                        font-size: 0.14rem;
+                        color: #7b7b7b;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//思路结束

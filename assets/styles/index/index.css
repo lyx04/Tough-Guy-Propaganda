@@ -485,43 +485,6 @@
         font-size: 0.14rem;
         color: #333333; }
 
-.link {
-  width: 100%;
-  height: 5.22rem;
-  background-image: url(../../image/5.png);
-  background-repeat: no-repeat;
-  background-position: top;
-  margin-bottom: 0.6rem; }
-  .link .container .link_top {
-    width: 100%;
-    height: 1.13rem;
-    padding-top: 0.6rem;
-    text-align: center;
-    margin-bottom: 0.3rem; }
-    .link .container .link_top p {
-      font-size: 0.17rem;
-      color: white;
-      margin-bottom: 0.1rem; }
-    .link .container .link_top img {
-      width: 2rem; }
-  .link .container .link_content .link_li {
-    background-color: white;
-    width: 11.04rem;
-    height: 3.85rem;
-    margin: 0 auto;
-    box-shadow: 0 0 10px #007AFF;
-    padding: 0.27rem 0.45rem 0.22rem 0;
-    font-size: 0; }
-    .link .container .link_content .link_li li {
-      margin-left: 0.33rem;
-      margin-bottom: 0.3rem;
-      width: 1.43rem;
-      height: 1.52rem;
-      border: 1px solid #333;
-      display: inline-block; }
-      .link .container .link_content .link_li li img {
-        width: 100%; }
-
 .customized {
   width: 100%;
   height: 6.2rem;

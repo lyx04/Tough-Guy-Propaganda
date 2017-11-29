@@ -1,0 +1,248 @@
+@import url('../base.css');
+@import url("../basecommon.css");
+
+//分类开始
+.tab {
+    width: 100%;
+    height: 2.3rem;
+    background-color: white;
+    .tab_li {
+        width: 100%;
+        height: 100%;
+        padding-top: 0.7rem;
+        font-size: 0;
+        li {
+            width: 2.6rem;
+            height: 0.9rem;
+            display: inline-block;
+            margin-left: 0.2rem;
+            padding-left: 0.3rem;
+            line-height: 0.9rem;
+            background-size: cover;
+            background-repeat: no-repeat;
+            &.margin_none {
+                margin: 0;
+            }
+            &.blue {
+                background-image: url(../../image/front/111.png);
+            }
+            &.pink {
+                background-image: url(../../image/front/222.png);
+            }
+            &.green {
+                background-image: url(../../image/front/333.png)
+            }
+            &.yellow {
+                background-image: url(../../image/front/444.png);
+            }
+            span {
+                font-size: 0.56rem;
+                color: #ffffff;
+            }
+        }
+    }
+}
+
+//分类结束
+//开发开始
+    .develop{
+        width:100%;
+        height:7.15rem;
+        background-color:#f7f7f7;
+        .develop_top{
+            width:100%;
+            height:1.3rem;
+            text-align:center;
+            padding-top:0.6rem;
+            p{
+                width:100%;
+                font-weight:bold;
+                font-size:0.17rem;
+                color:#333;
+                margin-bottom:0.1rem;
+            }
+            img{
+                width:2rem;
+                margin-bottom:0.1rem;
+            }
+            span{
+                display:block;
+                color:#999;
+                font-size:0.14rem;
+                
+            }
+        }
+        .develop_img{
+            width:100%;
+            padding:0 0.68rem;
+            margin-top:0.3rem;
+            img{
+                width:100%;
+            }
+        }
+    }
+//开发结束
+//系统开始
+    .system{
+        width:100%;
+        height:8.08rem;
+        .system_top{
+            width:100%;
+            height:2.45rem;
+            padding-top:0.65rem;
+            text-align: center;
+            p{
+                font-weight: bold;
+                font-size:0.17rem;
+                color:#333;
+                margin-bottom:0.1rem;
+            }
+            img{
+                width:2rem;
+            }
+            span{
+                display:block;
+                font-size:0.14rem;
+                color:#999999;
+            }
+        }
+        .system_content{
+            width:100%;
+            height:4.8rem;
+            
+            padding-left:0.25rem;
+            .system_list{
+                width:4.23rem;
+                display:inline-block;
+//              height:1.1rem;
+//              margin-bottom:0.25rem;
+                li{
+                    width:100%;
+                    height:1.1rem;
+                    margin-bottom:0.25rem;
+                    img{
+                        width:0.4rem;
+                        height:0.4rem;
+                        vertical-align: top;
+                    }
+                    .system_list_font{
+                        margin-left:0.05rem;
+                        
+                        display:inline-block;
+                        width:3.7rem;
+                        h5{
+                            font-size:0.16rem;
+                            color:#4b4b4b;
+                            margin-bottom:0.1rem;
+                        }
+                        p{
+                            font-size:0.14rem;
+                            color:#999999;
+                            -webkit-line-clamp: 3;
+                            white-space: normal;
+                        }
+                    }
+                }
+            }
+            .system_img{
+                display:inline-block;
+                float:right;
+                width:6rem;
+                height:4.4rem;
+                img{
+                    width:100%;
+                    height:100%;
+                }
+            }
+        }
+    }
+//系统结束
+//思路开始
+.thinking {
+    width: 100%;
+    height: 5rem;
+    background-color: #f7f7f7;
+    .container {
+        .thinking_top {
+            padding-top: 0.52rem;
+            width: 100%;
+            height: 1.77rem;
+            text-align: center;
+            p {
+                font-weight:bold;
+                font-size: 0.17rem;
+                color: #333;
+                margin-bottom: 0.1rem;
+            }
+            img {
+                width: 2rem;
+                margin-bottom: 0.01rem;
+            }
+            span {
+                display: block;
+                font-size: 0.16rem;
+                color: #999999;
+            }
+        }
+        .thinking_content {
+            width: 100%;
+            padding-left: 0.78rem;
+            padding-right: 0.46rem;
+            font-size: 0;
+            li {
+                width: 3.33rem;
+                height: 0.7rem;
+                display: inline-block;
+                margin-left: 2.5rem;
+                margin-bottom:0.86rem;
+                font-size: 0;
+                &.margin_none {
+                    margin: 0;
+                }
+                .thinking_con_img {
+                    width: 0.7rem;
+                    height: 0.7rem;
+                    display: inline-block;
+                    background-color: rgba(65, 146, 237, 0.1);
+                    text-align: center;
+                    border-radius: 50%;
+                    background-size: 90%;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    &.first {
+                        background-image: url(../../image/backstage/16.png);
+                        
+                    }
+                    &.two {
+                        background-image: url(../../image/backstage/18.png);
+                        
+                    }
+                    &.three {
+                        background-image: url(../../image/backstage/17.png);
+                       
+                    }
+                    &.firs {
+                        background-image: url(../../image/backstage/19.png);
+                       
+                    }
+                }
+                .thinking_con_font {
+                    width: 2.4rem;
+                    height: 100%;
+                    float: right;
+                    h5 {
+                        font-size: 0.16rem;
+                        color: #333333;
+                        margin-bottom: 0.15rem;
+                    }
+                    p {
+                        font-size: 0.14rem;
+                        color: #7b7b7b;
+                        display:block;                    }
+                }
+            }
+        }
+    }
+}
+
+//思路结束

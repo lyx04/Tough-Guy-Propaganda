@@ -1,0 +1,324 @@
+@import url("../base.css");
+@import url("../basecommon.css");
+//宗旨开始
+.purpose {
+    width: 100%;
+    height: 4.77rem;
+    .purpose_top {
+        width: 100%;
+        height: 1.22rem;
+        padding-top: 0.5rem;
+        text-align: center;
+        p {
+            width: 100%;
+            font-weight: bold;
+            font-size: 0.17rem;
+            color: #333;
+            margin-bottom: 0.1rem;
+        }
+        img {
+            width: 2rem;
+        }
+        span {
+            display: block;
+            font-size: 0.14rem;
+            color: #999999;
+        }
+    }
+    .purpose_list {
+        width: 100%;
+        height: 2.24rem;
+        padding: 0 0.89rem;
+        margin-top: 0.77rem;
+        font-size: 0;
+        li {
+            margin-left: 0.89rem;
+            width: 2.49rem;
+            height: 100%;
+            text-align: center;
+            display: inline-block;
+            &.margin_none {
+                margin: 0;
+            }
+            img {
+                width: 0.89rem;
+                height: 0.89rem;
+                margin-bottom: 0.2rem;
+            }
+            .purpose_list_con {
+                width: 100%;
+                h5 {
+                    font-size: 0.18rem;
+                    color: #000000;
+                    //                      margin-bottom:0.1rem;
+                }
+                span {
+                    width: 0.4rem;
+                    height: 3px;
+                    background-color: #4192ed;
+                    display: inline-block;
+                    margin: 0 auto;
+                    //                      margin-bottom:0.1rem;
+                }
+                p {
+                    font-size: 0.14rem;
+                    color: #999999;
+                }
+            }
+        }
+    }
+}
+
+//宗旨结束
+//平面设计开始
+.design {
+    width: 100%;
+    height: 13.90rem;
+    background-color: #cae0f9;
+    .design_top {
+        width: 100%;
+        height: 0.85rem;
+        text-align: center;
+        padding-top: 0.45rem;
+        p {
+            font-weight: bold;
+            color: #333;
+            font-size: 0.17rem;
+            margin-bottom: 0.1rem;
+        }
+        img {
+            width: 2rem;
+        }
+    }
+    .design_content {
+        width: 100%;
+        margin-top: 0.5rem;
+        li {
+            width: 100%;
+            height: 3.02rem;
+        }
+        .first {
+            height: 4.7rem;
+            font-size: 0;
+            width: 100%;
+            .left {
+                width: 7.19rem;
+                height: 100%;
+                display: inline-block;
+                img {
+                    width: 100%;
+                }
+            }
+            .right {
+                width: 3.8rem;
+                height: 100%;
+                display: inline-block;
+            }
+        }
+        .two {
+            width: 100%;
+            height: 4.03rem;
+            font-size: 0;
+            .left {
+                width: 3.27rem;
+                height: 100%;
+                display: inline-block;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .right {
+                width: 7.72rem;
+                height: 100%;
+                display: inline-block;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
+
+//平面设计结束
+//app设计开始
+.app {
+    width: 100%;
+    height: 7rem;
+    .app_top {
+        width: 100%;
+        height: 1.5rem;
+        text-align: center;
+        padding-top: 1.08rem;
+        margin-bottom: 0.78rem;
+        p {
+            font-size: 0.17rem;
+            color: #333;
+            font-weight: bold;
+            margin-bottom: 0.1rem;
+        }
+        img {
+            width: 2rem;
+        }
+    }
+    .app_content {
+        width: 100%;
+        height: 3.6rem;
+        padding: 0 0.7rem;
+        font-size: 0;
+        li {
+            width: 1.7rem;
+            height: 3.6rem;
+            display: inline-block;
+            background-image: url(../../image/ui/ss.png);
+            background-size: 100%;
+            padding-top: 0.4rem;
+            padding-left: 0.08rem;
+            background-repeat: no-repeat;
+            margin-left: 0.88rem;
+            &.margin_none {
+                margin: 0;
+            }
+            img {
+                width: 1.55rem;
+                height: 2.67rem;
+            }
+        }
+    }
+}
+
+//app设计结束
+//wx开始
+.wx {
+    width: 100%;
+    height: 8.86rem;
+    background-image: url(../../image/ui/199.png);
+    background-size: 100%;
+    background-position-y: 1.52rem;
+    background-repeat: no-repeat;
+    .wx_top {
+        width: 100%;
+        height: 0.4rem;
+        text-align: center;
+        margin-bottom: 0.55rem;
+        p {
+            font-size: 0.17rem;
+            color: #333;
+            font-weight: bold;
+            margin-bottom: 0.1rem;
+        }
+        img {
+            width: 2rem;
+        }
+    }
+    .wx_content {
+        width: 100%;
+        height: 7.15rem;
+        position: relative;
+        border: 1px solid transparent;
+        .big_wx {
+            width: 3.47rem;
+            height: 100%;
+            background-image: url(../../image/ui/ss.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            position: absolute;z-index: 1;
+            left: 0.45rem;
+            padding-top: 0.83rem;
+            padding-left: 0.19rem;
+            top: 0;
+            img {
+                width: 0.72rem;
+                height: 0.72rem;
+                border-radius: 20px;
+                position: absolute;
+                left: -4%;
+                top: -4%;
+            }
+            .wx_img {
+                border-radius: 0;
+                position: static;
+                width: 3.07rem;
+                height: 5.44rem;
+            }
+        }
+        .wx_jieshao {
+            width: 100%;
+            //              position:absolute;
+            height: 2.75rem;
+            padding-top: 0.34rem;
+            margin-top: 0.58rem;
+            li {
+                width: 100%;
+                padding-left: 50%;
+                margin-bottom: 0.33rem;
+                &.margin_none {
+                    margin: 0;
+                }
+                h5 {
+                    font-size: 0.18rem;
+                    color: #333333;
+                    font-weight: normal;
+                }
+                p {
+                    white-space: normal;
+                    display: -webkit-box;
+                    margin-top: 0.1rem;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 3;
+                    font-size: 0.16rem;
+                    color: rgba(51, 51, 51, 0.8);
+                }
+            }
+        }
+        .wx_gongzhong {
+            width: 100%;
+            height: 3.45rem;
+            position: relative;
+            margin-top: 0.18rem;
+            .gongzhong_xian {
+                position: absolute;
+                bottom: 0.7rem;
+                left: 0.65rem;
+                background-color: #09bb07;
+                width: 100%;
+                height: 0.73rem;
+                border-top-right-radius: 30px;
+                border-bottom-right-radius: 30px;
+                padding-top: 0.24rem;
+                padding-left: 0.2rem;
+                z-index: 2;
+                font-size: 0.24rem;
+                color: white;
+            }
+            .gongzhong_list {
+                                    width:6.17rem;
+                position:absolute;
+                z-index: 2;
+                margin-left: 50%;
+                font-size: 0;
+                li {
+                    padding-top: 0.4rem;
+                    padding-left: 0.08rem;
+                    width: 1.68rem;
+                    height: 3.44rem;
+                    display: inline-block;
+                    background-image: url(../../image/ui/ss.png);
+                    background-size: 100%;
+                    background-repeat: no-repeat;
+                    margin-left:0.3rem;
+                    &.margin_none{
+                        margin:0;
+                    }
+                    img {
+                        width: 1.52rem;
+                        height: 2.67rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//wx结束

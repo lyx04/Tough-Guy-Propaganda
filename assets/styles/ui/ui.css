@@ -1,0 +1,258 @@
+@import url("../base.css");
+@import url("../basecommon.css");
+.purpose {
+  width: 100%;
+  height: 4.77rem; }
+  .purpose .purpose_top {
+    width: 100%;
+    height: 1.22rem;
+    padding-top: 0.5rem;
+    text-align: center; }
+    .purpose .purpose_top p {
+      width: 100%;
+      font-weight: bold;
+      font-size: 0.17rem;
+      color: #333;
+      margin-bottom: 0.1rem; }
+    .purpose .purpose_top img {
+      width: 2rem; }
+    .purpose .purpose_top span {
+      display: block;
+      font-size: 0.14rem;
+      color: #999999; }
+  .purpose .purpose_list {
+    width: 100%;
+    height: 2.24rem;
+    padding: 0 0.89rem;
+    margin-top: 0.77rem;
+    font-size: 0; }
+    .purpose .purpose_list li {
+      margin-left: 0.89rem;
+      width: 2.49rem;
+      height: 100%;
+      text-align: center;
+      display: inline-block; }
+      .purpose .purpose_list li.margin_none {
+        margin: 0; }
+      .purpose .purpose_list li img {
+        width: 0.89rem;
+        height: 0.89rem;
+        margin-bottom: 0.2rem; }
+      .purpose .purpose_list li .purpose_list_con {
+        width: 100%; }
+        .purpose .purpose_list li .purpose_list_con h5 {
+          font-size: 0.18rem;
+          color: #000000; }
+        .purpose .purpose_list li .purpose_list_con span {
+          width: 0.4rem;
+          height: 3px;
+          background-color: #4192ed;
+          display: inline-block;
+          margin: 0 auto; }
+        .purpose .purpose_list li .purpose_list_con p {
+          font-size: 0.14rem;
+          color: #999999; }
+
+.design {
+  width: 100%;
+  height: 13.90rem;
+  background-color: #cae0f9; }
+  .design .design_top {
+    width: 100%;
+    height: 0.85rem;
+    text-align: center;
+    padding-top: 0.45rem; }
+    .design .design_top p {
+      font-weight: bold;
+      color: #333;
+      font-size: 0.17rem;
+      margin-bottom: 0.1rem; }
+    .design .design_top img {
+      width: 2rem; }
+  .design .design_content {
+    width: 100%;
+    margin-top: 0.5rem; }
+    .design .design_content li {
+      width: 100%;
+      height: 3.02rem; }
+    .design .design_content .first {
+      height: 4.7rem;
+      font-size: 0;
+      width: 100%; }
+      .design .design_content .first .left {
+        width: 7.19rem;
+        height: 100%;
+        display: inline-block; }
+        .design .design_content .first .left img {
+          width: 100%; }
+      .design .design_content .first .right {
+        width: 3.8rem;
+        height: 100%;
+        display: inline-block; }
+    .design .design_content .two {
+      width: 100%;
+      height: 4.03rem;
+      font-size: 0; }
+      .design .design_content .two .left {
+        width: 3.27rem;
+        height: 100%;
+        display: inline-block; }
+        .design .design_content .two .left img {
+          width: 100%;
+          height: 100%; }
+      .design .design_content .two .right {
+        width: 7.72rem;
+        height: 100%;
+        display: inline-block; }
+        .design .design_content .two .right img {
+          width: 100%;
+          height: 100%; }
+
+.app {
+  width: 100%;
+  height: 7rem; }
+  .app .app_top {
+    width: 100%;
+    height: 1.5rem;
+    text-align: center;
+    padding-top: 1.08rem;
+    margin-bottom: 0.78rem; }
+    .app .app_top p {
+      font-size: 0.17rem;
+      color: #333;
+      font-weight: bold;
+      margin-bottom: 0.1rem; }
+    .app .app_top img {
+      width: 2rem; }
+  .app .app_content {
+    width: 100%;
+    height: 3.6rem;
+    padding: 0 0.7rem;
+    font-size: 0; }
+    .app .app_content li {
+      width: 1.7rem;
+      height: 3.6rem;
+      display: inline-block;
+      background-image: url(../../image/ui/ss.png);
+      background-size: 100%;
+      padding-top: 0.4rem;
+      padding-left: 0.08rem;
+      background-repeat: no-repeat;
+      margin-left: 0.88rem; }
+      .app .app_content li.margin_none {
+        margin: 0; }
+      .app .app_content li img {
+        width: 1.55rem;
+        height: 2.67rem; }
+
+.wx {
+  width: 100%;
+  height: 8.86rem;
+  background-image: url(../../image/ui/199.png);
+  background-size: 100%;
+  background-position-y: 1.52rem;
+  background-repeat: no-repeat; }
+  .wx .wx_top {
+    width: 100%;
+    height: 0.4rem;
+    text-align: center;
+    margin-bottom: 0.55rem; }
+    .wx .wx_top p {
+      font-size: 0.17rem;
+      color: #333;
+      font-weight: bold;
+      margin-bottom: 0.1rem; }
+    .wx .wx_top img {
+      width: 2rem; }
+  .wx .wx_content {
+    width: 100%;
+    height: 7.15rem;
+    position: relative;
+    border: 1px solid transparent; }
+    .wx .wx_content .big_wx {
+      width: 3.47rem;
+      height: 100%;
+      background-image: url(../../image/ui/ss.png);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      position: absolute;
+      z-index: 1;
+      left: 0.45rem;
+      padding-top: 0.83rem;
+      padding-left: 0.19rem;
+      top: 0; }
+      .wx .wx_content .big_wx img {
+        width: 0.72rem;
+        height: 0.72rem;
+        border-radius: 20px;
+        position: absolute;
+        left: -4%;
+        top: -4%; }
+      .wx .wx_content .big_wx .wx_img {
+        border-radius: 0;
+        position: static;
+        width: 3.07rem;
+        height: 5.44rem; }
+    .wx .wx_content .wx_jieshao {
+      width: 100%;
+      height: 2.75rem;
+      padding-top: 0.34rem;
+      margin-top: 0.58rem; }
+      .wx .wx_content .wx_jieshao li {
+        width: 100%;
+        padding-left: 50%;
+        margin-bottom: 0.33rem; }
+        .wx .wx_content .wx_jieshao li.margin_none {
+          margin: 0; }
+        .wx .wx_content .wx_jieshao li h5 {
+          font-size: 0.18rem;
+          color: #333333;
+          font-weight: normal; }
+        .wx .wx_content .wx_jieshao li p {
+          white-space: normal;
+          display: -webkit-box;
+          margin-top: 0.1rem;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 3;
+          font-size: 0.16rem;
+          color: rgba(51, 51, 51, 0.8); }
+    .wx .wx_content .wx_gongzhong {
+      width: 100%;
+      height: 3.45rem;
+      position: relative;
+      margin-top: 0.18rem; }
+      .wx .wx_content .wx_gongzhong .gongzhong_xian {
+        position: absolute;
+        bottom: 0.7rem;
+        left: 0.65rem;
+        background-color: #09bb07;
+        width: 100%;
+        height: 0.73rem;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        padding-top: 0.24rem;
+        padding-left: 0.2rem;
+        z-index: 2;
+        font-size: 0.24rem;
+        color: white; }
+      .wx .wx_content .wx_gongzhong .gongzhong_list {
+        width: 6.17rem;
+        position: absolute;
+        z-index: 2;
+        margin-left: 50%;
+        font-size: 0; }
+        .wx .wx_content .wx_gongzhong .gongzhong_list li {
+          padding-top: 0.4rem;
+          padding-left: 0.08rem;
+          width: 1.68rem;
+          height: 3.44rem;
+          display: inline-block;
+          background-image: url(../../image/ui/ss.png);
+          background-size: 100%;
+          background-repeat: no-repeat;
+          margin-left: 0.3rem; }
+          .wx .wx_content .wx_gongzhong .gongzhong_list li.margin_none {
+            margin: 0; }
+          .wx .wx_content .wx_gongzhong .gongzhong_list li img {
+            width: 1.52rem;
+            height: 2.67rem; }

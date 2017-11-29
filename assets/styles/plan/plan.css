@@ -1,0 +1,156 @@
+@import url("../base.css");
+@import url("../basecommon.css");
+.advantage {
+  width: 100%;
+  height: 9.25rem;
+  background-color: #f7f7f7; }
+  .advantage .advantage_top {
+    width: 100%;
+    height: 1.37rem;
+    text-align: center;
+    padding-top: 0.65rem; }
+    .advantage .advantage_top p {
+      font-weight: bold;
+      font-size: 0.17rem;
+      color: #333;
+      margin-bottom: 0.1rem; }
+    .advantage .advantage_top img {
+      width: 2rem;
+      margin-bottom: 0.05rem; }
+    .advantage .advantage_top span {
+      display: block;
+      font-size: 0.16rem;
+      color: #999999; }
+  .advantage .advantage_content {
+    width: 100%;
+    margin-top: 0.55rem;
+    position: relative; }
+    .advantage .advantage_content li {
+      width: 2.6rem;
+      height: auto;
+      position: absolute; }
+      .advantage .advantage_content li img {
+        width: 0.51rem;
+        height: 0.51rem;
+        margin-bottom: 0.17rem; }
+      .advantage .advantage_content li .advantage_title {
+        font-size: 0.18rem;
+        color: #fda902;
+        font-weight: bold; }
+        .advantage .advantage_content li .advantage_title p {
+          font-size: inherit;
+          color: inherit; }
+      .advantage .advantage_content li .advantage_content_font {
+        font-size: 0.14rem;
+        color: #535353; }
+        .advantage .advantage_content li .advantage_content_font p {
+          margin-top: 0.04rem;
+          font-size: inherit;
+          color: #535353; }
+      .advantage .advantage_content li.plana {
+        left: 0.42;
+        top: 0.44rem; }
+      .advantage .advantage_content li.planb {
+        left: 1.49rem;
+        top: 3rem; }
+      .advantage .advantage_content li.planc {
+        left: 4.6rem;
+        top: 4.64rem; }
+      .advantage .advantage_content li.pland {
+        left: 8.26rem;
+        top: 3rem; }
+      .advantage .advantage_content li.plane {
+        left: 8.8rem;
+        top: 0.5rem; }
+    .advantage .advantage_content .center_img {
+      width: 4.80rem;
+      height: 4.33 rem;
+      left: 0;
+      right: 0;
+      margin: 0 auto; }
+      .advantage .advantage_content .center_img img {
+        width: 100%;
+        height: 100%; }
+
+.thinking {
+  width: 100%;
+  height: 5rem;
+  background-image: url(../../image/plan/00.png);
+  background-position: center;
+  background-color: white; }
+  .thinking .container .thinking_top {
+    padding-top: 0.52rem;
+    width: 100%;
+    height: 1.77rem;
+    text-align: center; }
+    .thinking .container .thinking_top p {
+      font-weight: bold;
+      font-size: 0.17rem;
+      color: #333;
+      margin-bottom: 0.1rem; }
+    .thinking .container .thinking_top img {
+      width: 2rem;
+      margin-bottom: 0.01rem; }
+    .thinking .container .thinking_top span {
+      display: block;
+      font-size: 0.16rem;
+      color: #999999; }
+  .thinking .container .thinking_content {
+    width: 100%;
+    padding-left: 0.78rem;
+    padding-right: 0.46rem;
+    font-size: 0; }
+    .thinking .container .thinking_content li {
+      width: 3.33rem;
+      height: 0.7rem;
+      display: inline-block;
+      margin-left: 2.5rem;
+      margin-bottom: 0.86rem;
+      font-size: 0; }
+      .thinking .container .thinking_content li:hover .thinking_con_img.first {
+        background-image: url(../../image/plan/08.png); }
+      .thinking .container .thinking_content li:hover .thinking_con_img.two {
+        background-image: url(../../image/plan/03.png); }
+      .thinking .container .thinking_content li:hover .thinking_con_img.three {
+        background-image: url(../../image/plan/04.png); }
+      .thinking .container .thinking_content li:hover .thinking_con_img.firs {
+        background-image: url(../../image/plan/02.png); }
+      .thinking .container .thinking_content li.margin_none {
+        margin: 0; }
+      .thinking .container .thinking_content li .thinking_con_img {
+        width: 0.7rem;
+        height: 0.7rem;
+        display: inline-block;
+        background-color: rgba(65, 146, 237, 0.1);
+        text-align: center;
+        border-radius: 50%;
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-position: center; }
+        .thinking .container .thinking_content li .thinking_con_img.first {
+          background-image: url(../../image/plan/01.png); }
+          .thinking .container .thinking_content li .thinking_con_img.first:hover {
+            background-image: url(../../image/plan/08.png); }
+        .thinking .container .thinking_content li .thinking_con_img.two {
+          background-image: url(../../image/plan/06.png); }
+          .thinking .container .thinking_content li .thinking_con_img.two:hover {
+            background-image: url(../../image/plan/03.png); }
+        .thinking .container .thinking_content li .thinking_con_img.three {
+          background-image: url(../../image/plan/07.png); }
+          .thinking .container .thinking_content li .thinking_con_img.three:hover {
+            background-image: url(../../image/plan/04.png); }
+        .thinking .container .thinking_content li .thinking_con_img.firs {
+          background-image: url(../../image/plan/05.png); }
+          .thinking .container .thinking_content li .thinking_con_img.firs:hover {
+            background-image: url(../../image/plan/02.png); }
+      .thinking .container .thinking_content li .thinking_con_font {
+        width: 2.4rem;
+        height: 100%;
+        float: right; }
+        .thinking .container .thinking_content li .thinking_con_font h5 {
+          font-size: 0.16rem;
+          color: #333333;
+          margin-bottom: 0.15rem; }
+        .thinking .container .thinking_content li .thinking_con_font p {
+          font-size: 0.14rem;
+          color: #7b7b7b; }

@@ -1,0 +1,382 @@
+@import url("../base.css");
+@import url("../basecommon.css");
+//分类开始
+.tab {
+    width: 100%;
+    height: 2.3rem;
+    background-color: white;
+    .tab_li {
+        width: 100%;
+        height: 100%;
+        padding-top: 0.7rem;
+        font-size: 0;
+        li {
+            width: 2.6rem;
+            height: 0.9rem;
+            display: inline-block;
+            margin-left: 0.2rem;
+            padding-left: 0.3rem;
+            line-height: 0.9rem;
+            background-size: cover;
+            background-repeat: no-repeat;
+            &.margin_none {
+                margin: 0;
+            }
+            &.blue {
+                background-image: url(../../image/front/111.png);
+            }
+            &.pink {
+                background-image: url(../../image/front/222.png);
+            }
+            &.green {
+                background-image: url(../../image/front/333.png)
+            }
+            &.yellow {
+                background-image: url(../../image/front/444.png);
+            }
+            span {
+                font-size: 0.56rem;
+                color: #ffffff;
+            }
+        }
+    }
+}
+
+//分类结束
+//技术优势开始
+.advantage {
+    width: 100%;
+    height: 7.23rem;
+    background-color: #f7f7f7;
+    .advantage_top {
+        width: 100%;
+        height: 1.75rem;
+        text-align: center;
+        padding-top: 0.4rem;
+        p {
+            font-size: 0.17rem;
+            color: #333;
+            font-weight: bold;
+            margin-bottom: 0.1rem;
+        }
+        img {
+            width: 2rem;
+        }
+        span {
+            display: block;
+            color: #999999;
+            font-size: 0.16rem;
+        }
+    }
+    .advantage_content {
+        width: 100%;
+        height: 4.4rem;
+        font-size: 0;
+        .advantage_con_left {
+            width: 4.5rem;
+            display: inline-block;
+            overflow: hidden;
+            background-color: white;
+            padding: 0.45rem 0.5rem 0.5rem 0.5rem;
+            text-align: center;
+            height: 100%;
+            border-bottom: 1px solid transparent;
+            &:hover {
+                box-shadow: 0 0 10px #007AFF;
+                border-bottom: 1px solid #01a4ef;
+            }
+            img {
+                width: 1rem;
+                height: 1.45rem;
+                margin-bottom: 0.52rem;
+            }
+            .adv_con_left_font {
+                .adv_con_left_font_img {
+                    width: 100%;
+                    margin-bottom: 0.2rem;
+                    text-align: center;
+                    img {
+                        width: 0.27rem;
+                        height: 0.23rem;
+                        margin-bottom: 0;
+                    }
+                    span {
+                        vertical-align: top;
+                        font-size: 0.2rem;
+                        color: #000000;
+                    }
+                }
+                .xian {
+                    margin-bottom: 0.2rem;
+                    width: 100%;
+                    height: 1px;
+                    background-color: #2590c7;
+                    position: relative;
+                    p {
+                        position: absolute;
+                        left: 0;
+                        width: 20%;
+                        height: 3px;
+                        background-color: #2590c7;
+                        top: -1px;
+                    }
+                }
+                .adv_con_left_font_font {
+                    p {
+                        white-space: normal;
+                        font-size: 0.14rem;
+                        color: #999999;
+                        text-align: left;
+                    }
+                }
+            }
+        }
+        .advantage_con_right {
+            width: 6.27rem;
+            //          height:2.1rem;
+            height: 100%;
+            display: inline-block;
+            //          overflow: hidden;
+            vertical-align: top;
+            margin-left: 0.23rem;
+            li {
+                margin-bottom: 0.2rem;
+                width: 100%;
+                height: 2.1rem;
+                border-right: 1px solid #01a4ef;
+                background-color: white;
+                padding-top: 0.3rem;
+                padding-right: 0.3rem;
+                padding-left: 0.7rem;
+                &:hover {
+                    box-shadow: 0 0 10px #007AFF;
+                }
+                img {
+                    width: 0.93rem;
+                    height: 0.93rem;
+                    margin-top: 0.37rem;
+                }
+                .con_right_font {
+                    width: 3.93rem;
+                    display: inline-block;
+                    vertical-align: top;
+                    float: right;
+                    .con_right_font_title {
+                        height: 0.4rem;
+                        margin-bottom: 0.1rem;
+                        img {
+                            width: 0.3rem;
+                            height: 0.3rem;
+                            margin: 0;
+                        }
+                        span {
+                            vertical-align: top;
+                            color: #000000;
+                            font-size: 0.2rem;
+                        }
+                    }
+                    .xian {
+                        width: 100%;
+                        height: 1px;
+                        background-color: #2590c7;
+                        position: relative;
+                        margin-bottom: 0.2rem;
+                        p {
+                            position: absolute;
+                            width: 20%;
+                            height: 3px;
+                            top: -1px;
+                            background-color: #2590c7;
+                        }
+                    }
+                    p {
+                        font-size: 0.14rem;
+                        color: #999999;
+                        white-space: normal;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//技术优势结束
+//pc开始
+.pc {
+    width: 100%;
+    height: 7.73rem;
+    background-color: white;
+    .container {
+        width: 11rem;
+    }
+    .pc_top {
+        width: 100%;
+        height: 1.45rem;
+        text-align: center;
+        padding-top: 0.72rem;
+        p {
+            width: 100%;
+            font-size: 0.17rem;
+            font-weight: bold;
+            margin-bottom: 0.1rem;
+        }
+        img {
+            width: 2rem;
+            margin-bottom: 0.1rem;
+        }
+        span {
+            display: block;
+            font-size: 0.14rem;
+            color: #999;
+        }
+    }
+    .pc_content {
+        width: 100%;
+        margin-top: 0.6rem;
+        height: 5.05rem;
+        font-size: 0;
+        .pc_img {
+            width: 4.9rem;
+            height: 100%;
+            display: inline-block;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .pc_content_font {
+            width: 5.9rem;
+            height: 100%;
+            display: inline-block;
+            position: relative;
+            float: right;
+            li {
+                width: 100%;
+                height: 1.17rem;
+                margin-bottom: 0.78rem;
+                font-size: 0;
+                &.margin_this {
+                    margin-left: 0.8rem;
+                }
+                .pc_content_font_img {
+                    width: 0.75rem;
+                    height: 0.75rem;
+                    display: inline-block;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .pc_content_font_font {
+                    display: inline-block;
+                    width: 5rem;
+                    float: right;
+                    h5 {
+                        font-size: 0.18rem;
+                        color: #4192ed;
+                    }
+                    p {
+                        font-size: 0.14rem;
+                        color: #999999;
+                        white-space: normal;
+                        -webkit-line-clamp: 3;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//pc结束
+//app开始
+.app {
+    width: 100%;
+    height: 7.73rem;
+    background-color: #f7f7f7;
+    .container {
+        width: 11rem;
+    }
+    .app_top {
+        width: 100%;
+        height: 1.45rem;
+        text-align: center;
+        padding-top: 0.72rem;
+        p {
+            width: 100%;
+            font-size: 0.17rem;
+            font-weight: bold;
+            margin-bottom: 0.1rem;
+        }
+        img {
+            width: 2rem;
+            margin-bottom: 0.1rem;
+        }
+        span {
+            display: block;
+            font-size: 0.14rem;
+            color: #999;
+        }
+    }
+    .app_content {
+        width: 100%;
+        margin-top: 0.6rem;
+        height: 4.8rem;
+        font-size: 0;
+        .app_img {
+            width: 4.52rem;
+            height: 4.47rem;
+            display: inline-block;
+            float:right;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .app_content_font {
+            width: 5.9rem;
+            height: 100%;
+            display: inline-block;
+            position: relative;
+            li {
+                float:right;
+                width: 100%;
+                height: 1.15rem;
+                margin-bottom: 0.78rem;
+                font-size: 0;
+                text-align:right;
+                &.margin_none{
+                    margin-bottom:0;
+                }
+                &.margin_this {
+                    margin-right: 0.8rem;
+                }
+                .app_content_font_img {
+                    width: 0.75rem;
+                    height: 0.75rem;
+                    display: inline-block;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .app_content_font_font {
+                    display: inline-block;
+                    width: 5rem;
+                    float: left;
+                    h5 {
+                        font-size: 0.18rem;
+                        color: #4192ed;
+                    }
+                    p {
+                        font-size: 0.14rem;
+                        color: #999999;
+                        white-space: normal;
+                        -webkit-line-clamp: 3;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//app结束
