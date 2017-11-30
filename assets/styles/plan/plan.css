@@ -153,4 +153,5 @@
           margin-bottom: 0.15rem; }
         .thinking .container .thinking_content li .thinking_con_font p {
           font-size: 0.14rem;
-          color: #7b7b7b; }
+          color: #7b7b7b;
+          display: block; }

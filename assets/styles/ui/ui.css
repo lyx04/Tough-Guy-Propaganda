@@ -260,3 +260,19 @@
           .wx .wx_content .wx_gongzhong .gongzhong_list li img {
             width: 1.52rem;
             height: 2.67rem; }
+
+.web {
+  width: 100%;
+  height: 8.6rem; }
+  .web .web_top {
+    width: 100%;
+    height: 0.4rem;
+    text-align: center; }
+    .web .web_top p {
+      width: 100%;
+      font-size: 0.17rem;
+      color: #333;
+      font-weight: bold;
+      margin-bottom: 0.1rem; }
+    .web .web_top img {
+      width: 2rem; }

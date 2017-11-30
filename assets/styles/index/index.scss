@@ -14,9 +14,14 @@
                 display: inline-block;
                 line-height: 1rem;
                 text-align: center;
+//padding-left:0.5rem;
                 margin-left: 0.8rem;
                 background-size: cover;
                 background-repeat: no-repeat;
+                &.padd{
+                   padding-left:0.5rem; 
+                   text-align: left;
+                }
                 &.margin_none {
                     margin: 0;
                 }
@@ -319,12 +324,13 @@
                     padding-left: 0.95rem;
                     position:relative;
                     font-size: 0;
+                    display:none;
                     .dynamic_top {
                         width: 100%;
                         height: 0.77rem;
                         text-align: center;
                         margin-bottom: 0.4rem;
-                        margin-left:-0.3rem;
+                            margin-left: -0.1rem;
                         padding-top: 0.3rem;
                         p {
                             font-size: 0.17rem;
@@ -341,6 +347,9 @@
 //                      height: 100%;
                         padding-right: 0.25rem;
                         display: inline-block;
+                        &.float{
+                            float:right;
+                        }
                         .first_list_only {
                             width: 100%;
                             font-size: 0;
@@ -393,7 +402,7 @@
                                         -webkit-box-orient: vertical;
                                         font-size: 0.12rem;
                                         color: #999999;
-                                        -webkit-line-clamp: 4;
+                                        -webkit-line-clamp: 3;
                                         white-space: normal;
                                     }
                                 }
@@ -431,7 +440,7 @@
                         height: 0.45rem;
                         background-color: white;
                         left:50%;
-                        margin-left:-0.8rem;
+                        margin-left:-0.6rem;
                         border-radius: 20px;
                         text-align: center;
                         line-height: 0.45rem;
@@ -452,14 +461,13 @@
                     width: 100%;
                     height: 100%;
                     position: absolute;
-                    display:none;
                     padding-left:0.45rem;
                     padding-right:0.3rem;
                     .two_list_top {
                         width: 100%;
                         height: 0.8rem;
                         padding-top: 0.3rem;
-                            margin-left: 0.1rem;
+                            margin-left: 0.29rem;
                         text-align: center;
                         margin-bottom:0.4rem;
                         p {
@@ -549,6 +557,7 @@
         height:6.77rem;
         background-image:url(../../image/index/0.png);
         background-repeat: no-repeat;
+        background-size: contain;
         background-position:center;
         .container{
             width:11rem;
@@ -564,6 +573,9 @@
                 font-weight: bold;
                 color:#333;
                 margin-bottom:0.1rem;
+            }
+            img{
+                width:2rem;
             }
         }
         .support_li{

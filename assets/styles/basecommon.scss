@@ -259,7 +259,7 @@ nav {
                           display:inline-block;
                           img{
                               width:100%;
-                              
+                              height:100%;
                           }
                       }
                 }    
@@ -328,3 +328,9 @@ nav {
         }
     }
 //左侧到导航结束
+.banner_small{
+    width:100%;
+    img{
+        width:100%;
+    }    
+}

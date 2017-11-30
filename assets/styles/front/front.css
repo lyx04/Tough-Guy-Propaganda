@@ -153,6 +153,9 @@
               background-color: #2590c7; }
           .advantage .advantage_content .advantage_con_right li .con_right_font p {
             font-size: 0.14rem;
+            -webkit-line-clamp: 3;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
             color: #999999;
             white-space: normal; }
 

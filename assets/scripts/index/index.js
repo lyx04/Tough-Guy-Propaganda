@@ -9,7 +9,6 @@
 		var arr = [10, 2000, 600, 90, 50]
 		$(window).on("scroll", function(e) {
 			var el = $(window).scrollTop()
-			if(el + 50 > numTop) {
 					$(".number").find("li span").each(function(i, v) {
 						var spannum = $(".number").find("li span:first").html()
 						if(spannum > arr[0]) {
@@ -22,7 +21,7 @@
 						}
 
 					})
-			}
+			
 		})
 //		新闻动态的切换
 		$(".toggle").find("li").on("click",function(){

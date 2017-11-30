@@ -328,3 +328,24 @@
 }
 
 //wx结束
+//网页设计开始
+    .web{
+        width:100%;
+        height:8.6rem;
+        .web_top{
+            width:100%;
+            height:0.4rem;
+            text-align:center;
+            p{
+                width:100%;
+                font-size:0.17rem;
+                color:#333;
+                font-weight:bold;
+                margin-bottom:0.1rem;
+            }
+            img{
+                width:2rem;
+            }
+        }
+    }
+//网页设计结束
