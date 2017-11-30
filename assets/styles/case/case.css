@@ -45,7 +45,8 @@ html {
 
 .exhibition {
   width: 100%;
-  height: auto; }
+  height: auto;
+  margin-bottom: 0.3rem; }
   .exhibition .container {
     background-color: white;
     border-top: 1px solid #197ae7;
