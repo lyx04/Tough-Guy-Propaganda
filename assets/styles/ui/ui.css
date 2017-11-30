@@ -75,6 +75,8 @@
     .design .design_content li {
       width: 100%;
       height: 3.02rem; }
+      .design .design_content li img {
+        width: 100%; }
     .design .design_content .first {
       height: 4.7rem;
       font-size: 0;
@@ -89,6 +91,8 @@
         width: 3.8rem;
         height: 100%;
         display: inline-block; }
+        .design .design_content .first .right img {
+          width: 100%; }
     .design .design_content .two {
       width: 100%;
       height: 4.03rem;

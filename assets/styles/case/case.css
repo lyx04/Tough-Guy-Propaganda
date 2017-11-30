@@ -1,0 +1,270 @@
+@import url("../base.css");
+@import url("../basecommon.css");
+html {
+  background-color: #f7f7f7; }
+
+.nav_tab {
+  width: 100%;
+  height: 2.13rem;
+  padding-top: 0.62rem;
+  font-size: 0; }
+  .nav_tab .container {
+    padding-left: 0.9rem; }
+  .nav_tab li {
+    width: 2.2rem;
+    height: 0.97rem;
+    display: inline-block;
+    background-size: 100%;
+    padding-top: 0.28rem;
+    padding-left: 0.3rem;
+    background-size: 100%;
+    margin-left: 0.26rem;
+    cursor: pointer;
+    background-repeat: no-repeat; }
+    .nav_tab li.margin_none {
+      margin: 0; }
+    .nav_tab li.first {
+      background-image: url(../../image/case/1.png); }
+      .nav_tab li.first.active {
+        background-image: url(../../image/case/5.png); }
+    .nav_tab li.two {
+      background-image: url(../../image/case/2.png); }
+      .nav_tab li.two.active {
+        background-image: url(../../image/case/6.png); }
+    .nav_tab li.three {
+      background-image: url(../../image/case/3.png); }
+      .nav_tab li.three.active {
+        background-image: url(../../image/case/7.png); }
+    .nav_tab li.five {
+      background-image: url(../../image/case/4.png); }
+      .nav_tab li.five.active {
+        background-image: url(../../image/case/8.png); }
+    .nav_tab li span {
+      font-size: 0.51rem;
+      color: #ffffff; }
+
+.exhibition {
+  width: 100%;
+  height: auto; }
+  .exhibition .container {
+    background-color: white;
+    border-top: 1px solid #197ae7;
+    border-bottom: 1px solid transparent; }
+  .exhibition .exhibition_top {
+    background-color: white;
+    text-align: center;
+    padding-top: 0.35rem;
+    margin-bottom: 0.6rem; }
+    .exhibition .exhibition_top p {
+      font-size: 0.17rem;
+      color: #333;
+      font-weight: bold; }
+    .exhibition .exhibition_top img {
+      width: 2rem; }
+  .exhibition .app_list {
+    width: 100%;
+    height: auto;
+    border-left: 2px solid #f9a630;
+    display: none; }
+    .exhibition .app_list.active {
+      display: block; }
+    .exhibition .app_list li {
+      width: 100%;
+      height: auto;
+      position: relative; }
+      .exhibition .app_list li.active {
+        height: 0.7rem;
+        margin-bottom: 0.2rem; }
+      .exhibition .app_list li .years {
+        position: absolute;
+        width: 0.7rem;
+        height: 0.7rem;
+        background-color: #f9a630;
+        border-radius: 50%;
+        left: -3%;
+        top: 0;
+        text-align: center;
+        line-height: 0.7rem; }
+        .exhibition .app_list li .years p {
+          font-size: 0.24rem;
+          color: white; }
+        .exhibition .app_list li .years.active {
+          background-color: white;
+          border: 1px solid #f9a630; }
+          .exhibition .app_list li .years.active p {
+            color: #f9a630; }
+      .exhibition .app_list li .show_down {
+        width: 0.48rem;
+        height: 0.48rem;
+        position: absolute;
+        border-radius: 50%;
+        background-color: #3ed8c7;
+        text-align: center;
+        padding-top: 0.1rem;
+        right: 0.35rem;
+        top: 0.08rem;
+        z-index: 11; }
+        .exhibition .app_list li .show_down p {
+          font-size: 0.16rem;
+          color: #fff; }
+        .exhibition .app_list li .show_down span {
+          width: 100%;
+          text-align: center;
+          display: inline-block;
+          transform: rotate(-90deg);
+          font-size: 0.1rem;
+          float: right;
+          color: white; }
+      .exhibition .app_list li .app_only_list {
+        width: 100%;
+        height: auto;
+        padding-top: 0.3rem; }
+        .exhibition .app_list li .app_only_list li {
+          width: 100%;
+          padding-bottom: 0.3rem;
+          font-size: 0;
+          padding-left: 0.3rem;
+          padding-right: 0.09rem; }
+          .exhibition .app_list li .app_only_list li .xian {
+            margin: 0 auto;
+            width: 90%;
+            padding-left: 0.66rem;
+            padding-right: 0.6rem;
+            border-top: 1px dashed #dfdfdf;
+            margin-bottom: 0.65rem; }
+          .exhibition .app_list li .app_only_list li .app_only_font {
+            width: 3.9rem;
+            display: inline-block; }
+            .exhibition .app_list li .app_only_list li .app_only_font h5 {
+              margin-bottom: 0.35rem;
+              position: relative;
+              width: 100%;
+              color: #333;
+              font-size: 0.2rem; }
+              .exhibition .app_list li .app_only_list li .app_only_font h5 span {
+                position: absolute;
+                width: 0.45rem;
+                height: 0.27rem;
+                left: -12%;
+                font-weight: normal;
+                background-image: url(../../image/case/28.png);
+                background-repeat: no-repeat;
+                background-size: contain;
+                padding-left: 0.06rem;
+                line-height: 0.27rem;
+                color: #f9a630;
+                font-size: 0.18rem; }
+            .exhibition .app_list li .app_only_list li .app_only_font .app_only_font_ip p {
+              width: 100%;
+              color: #666666;
+              font-size: 0.16rem;
+              margin-bottom: 0.17rem; }
+              .exhibition .app_list li .app_only_list li .app_only_font .app_only_font_ip p span {
+                margin-right: 0.07rem;
+                font-weight: bold; }
+              .exhibition .app_list li .app_only_list li .app_only_font .app_only_font_ip p.color {
+                padding-left: 0.28rem;
+                color: #177af4;
+                font-size: 0.16rem; }
+            .exhibition .app_list li .app_only_list li .app_only_font .app_only_font_color p {
+              width: 100%;
+              color: #666666;
+              font-size: 0.16rem;
+              margin-bottom: 0.17rem; }
+              .exhibition .app_list li .app_only_list li .app_only_font .app_only_font_color p span {
+                margin-right: 0.07rem;
+                font-weight: bold; }
+              .exhibition .app_list li .app_only_list li .app_only_font .app_only_font_color p.color {
+                padding-left: 0.28rem;
+                color: #177af4;
+                font-size: 0.16rem; }
+                .exhibition .app_list li .app_only_list li .app_only_font .app_only_font_color p.color span {
+                  display: inline-block;
+                  width: 0.2rem;
+                  height: 0.2rem;
+                  border-radius: 50%; }
+                  .exhibition .app_list li .app_only_list li .app_only_font .app_only_font_color p.color span.red {
+                    background-color: #d30708; }
+                  .exhibition .app_list li .app_only_list li .app_only_font .app_only_font_color p.color span.white {
+                    background-color: #f1f1f1; }
+            .exhibition .app_list li .app_only_list li .app_only_font .app_only_font_tab p {
+              width: 100%;
+              color: #666666;
+              font-size: 0.16rem;
+              margin-bottom: 0.2rem; }
+              .exhibition .app_list li .app_only_list li .app_only_font .app_only_font_tab p span {
+                margin-right: 0.07rem;
+                font-weight: bold; }
+              .exhibition .app_list li .app_only_list li .app_only_font .app_only_font_tab p.color {
+                padding-left: 0.28rem;
+                color: #177af4;
+                font-size: 0.16rem; }
+                .exhibition .app_list li .app_only_list li .app_only_font .app_only_font_tab p.color a {
+                  display: inline-block;
+                  width: 0.51rem;
+                  height: 0.23rem;
+                  font-size: 0.16rem;
+                  line-height: 0.22rem;
+                  border-radius: 5px;
+                  text-align: center;
+                  line-height: 0.2rem;
+                  margin-right: 0.1rem;
+                  border: 1px solid transparent; }
+                  .exhibition .app_list li .app_only_list li .app_only_font .app_only_font_tab p.color a.pink {
+                    border-color: #f837b2;
+                    color: #f837b2; }
+                  .exhibition .app_list li .app_only_list li .app_only_font .app_only_font_tab p.color a.blue {
+                    border-color: #378ef8; }
+            .exhibition .app_list li .app_only_list li .app_only_font .app_only_font_introduce p {
+              width: 100%;
+              color: #666666;
+              font-size: 0.16rem;
+              margin-bottom: 0.2rem; }
+              .exhibition .app_list li .app_only_list li .app_only_font .app_only_font_introduce p span {
+                margin-right: 0.07rem;
+                font-weight: bold; }
+              .exhibition .app_list li .app_only_list li .app_only_font .app_only_font_introduce p.color {
+                padding-left: 0.28rem;
+                color: #666666;
+                font-size: 0.16rem;
+                line-height: 2;
+                white-space: normal;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 4; }
+          .exhibition .app_list li .app_only_list li .app_only_img {
+            display: inline-block;
+            float: right;
+            margin-top: 0.25rem;
+            width: 6.2rem; }
+            .exhibition .app_list li .app_only_list li .app_only_img .app_only_img_img {
+              width: 100%;
+              min-height: 3.55rem;
+              background-image: url(../../image/case/11.png);
+              background-size: 100%;
+              background-repeat: no-repeat;
+              background-position: top;
+              padding-top: 0.23rem;
+              padding-left: 0.75rem; }
+              .exhibition .app_list li .app_only_list li .app_only_img .app_only_img_img.none {
+                background-image: none; }
+            .exhibition .app_list li .app_only_list li .app_only_img img {
+              width: 4.7rem;
+              display: none; }
+            .exhibition .app_list li .app_only_list li .app_only_img .back_img {
+              display: block; }
+            .exhibition .app_list li .app_only_list li .app_only_img .btn_xia {
+              width: 1.7rem;
+              height: 0.36rem;
+              margin: 0 auto;
+              line-height: 0.36rem;
+              border: 1px solid #cdcdcd;
+              margin-top: 0.38rem;
+              text-align: center; }
+              .exhibition .app_list li .app_only_list li .app_only_img .btn_xia span {
+                color: #5e5e5e;
+                font-size: 0.2rem;
+                display: inline-block;
+                transform: rotate(-90deg); }
+                .exhibition .app_list li .app_only_list li .app_only_img .btn_xia span.active {
+                  transform: rotate(90deg); }
