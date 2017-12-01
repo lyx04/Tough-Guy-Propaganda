@@ -9,10 +9,12 @@
 		var arr = [10, 2000, 600, 90, 50]
 		$(window).on("scroll", function(e) {
 			var el = $(window).scrollTop()
-					$(".number").find("li span").each(function(i, v) {
+			var t = setInterval(move,1000)
+			function move(){
+				$(".number").find("li span").each(function(i, v) {
 						var spannum = $(".number").find("li span:first").html()
 						if(spannum > arr[0]) {
-							return 
+							clearInterval(t) 
 						} else {
 							var numOnly = arr[i] / 10
 							var this_num = $(v).html()
@@ -21,6 +23,8 @@
 						}
 
 					})
+			}
+					
 			
 		})
 //		新闻动态的切换

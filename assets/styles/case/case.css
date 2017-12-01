@@ -189,6 +189,24 @@ html {
                     background-color: #d30708; }
                   .exhibition .app_list li .app_only_list li .app_only_font .app_only_font_color p.color span.white {
                     background-color: #f1f1f1; }
+                  .exhibition .app_list li .app_only_list li .app_only_font .app_only_font_color p.color span.yellow {
+                    background-color: #ffcf00; }
+                  .exhibition .app_list li .app_only_list li .app_only_font .app_only_font_color p.color span.blue {
+                    background-color: #2dc0e8; }
+                  .exhibition .app_list li .app_only_list li .app_only_font .app_only_font_color p.color span.brown {
+                    background-color: #4c5e70; }
+                  .exhibition .app_list li .app_only_list li .app_only_font .app_only_font_color p.color span.pink {
+                    background-color: #ff4c78; }
+                  .exhibition .app_list li .app_only_list li .app_only_font .app_only_font_color p.color span.orgin {
+                    background-color: #ff9940; }
+                  .exhibition .app_list li .app_only_list li .app_only_font .app_only_font_color p.color span.malachite {
+                    background-color: #0ad79f; }
+                  .exhibition .app_list li .app_only_list li .app_only_font .app_only_font_color p.color span.purple {
+                    background-color: #8774cb; }
+                  .exhibition .app_list li .app_only_list li .app_only_font .app_only_font_color p.color span.navy {
+                    background-color: #4a83bc; }
+                  .exhibition .app_list li .app_only_list li .app_only_font .app_only_font_color p.color span.black {
+                    background-color: black; }
             .exhibition .app_list li .app_only_list li .app_only_font .app_only_font_tab p {
               width: 100%;
               color: #666666;
