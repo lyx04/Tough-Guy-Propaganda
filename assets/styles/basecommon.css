@@ -211,6 +211,7 @@ nav {
   height: 3.07rem;
   position: fixed;
   left: 25%;
+  z-index: 10000;
   margin-left: -20%;
   top: 3.3rem; }
   .nav .nav_title {

@@ -96,8 +96,8 @@
         li {
             width: 100%;
             height: 3.02rem;
-            img{
-                width:100%;
+            img {
+                width: 100%;
             }
         }
         .first {
@@ -116,8 +116,8 @@
                 width: 3.8rem;
                 height: 100%;
                 display: inline-block;
-                img{
-                    width:100%;
+                img {
+                    width: 100%;
                 }
             }
         }
@@ -229,7 +229,8 @@
             background-image: url(../../image/ui/ss.png);
             background-size: 100%;
             background-repeat: no-repeat;
-            position: absolute;z-index: 1;
+            position: absolute;
+            z-index: 1;
             left: 0.45rem;
             padding-top: 0.83rem;
             padding-left: 0.19rem;
@@ -299,8 +300,8 @@
                 color: white;
             }
             .gongzhong_list {
-                                    width:6.17rem;
-                position:absolute;
+                width: 6.17rem;
+                position: absolute;
                 z-index: 2;
                 margin-left: 50%;
                 font-size: 0;
@@ -313,9 +314,9 @@
                     background-image: url(../../image/ui/ss.png);
                     background-size: 100%;
                     background-repeat: no-repeat;
-                    margin-left:0.3rem;
-                    &.margin_none{
-                        margin:0;
+                    margin-left: 0.3rem;
+                    &.margin_none {
+                        margin: 0;
                     }
                     img {
                         width: 1.52rem;
@@ -329,23 +330,135 @@
 
 //wx结束
 //网页设计开始
-    .web{
-        width:100%;
-        height:8.6rem;
-        .web_top{
-            width:100%;
-            height:0.4rem;
-            text-align:center;
-            p{
-                width:100%;
-                font-size:0.17rem;
-                color:#333;
-                font-weight:bold;
-                margin-bottom:0.1rem;
+.web {
+    width: 100%;
+    height: 8.6rem;
+    .container {
+        width: 14.06rem;
+    }
+    .web_top {
+        width: 100%;
+        height: 0.4rem;
+        text-align: center;
+       
+        p {
+            width: 100%;
+            font-size: 0.17rem;
+            color: #333;
+            font-weight: bold;
+            margin-bottom: 0.1rem;
+        }
+        img {
+            width: 2rem;
+        }
+    }
+    .web_content {
+        width: 100%;
+        height:auto ;
+        position: relative;
+        margin-top: 0.3rem;
+        overflow: hidden;
+        .list {
+            width: 100%;
+            height: 5.3rem;
+            overflow: hidden;
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            li {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 11.03rem;
+                height: 100%;
+                opacity: 0;
+                transition: all 0.3s ease-out;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
             }
-            img{
-                width:2rem;
+            .p1 {
+                transform: translate3d(-2.24rem, 0, 0) scale(0.81);
+            }
+            .p2 {
+                transform: translate3d(0px, 0, 0) scale(0.81);
+                transform-origin: 0 50%;
+                opacity: 0.4;
+                z-index: 2;
+            }
+            .p3 {
+                transform: translate3d(1.5rem, 0, 0) scale(1);
+                z-index: 3;
+                opacity: 1;
+            }
+            .p4 {
+                transform: translate3d(5.1rem, 0, 0) scale(0.81);
+                transform-origin: 0 50%;
+                opacity: 0.4;
+                z-index: 2;
+            }
+            .p5 {
+                transform: translate3d(6.72rem, 0, 0) scale(0.81);
+            }
+            .p6 {
+                transform: translate3d(8.96rem, 0, 0) scale(0.81);
+            }
+            .p7 {
+                transform: translate3d(11.20rem, 0, 0) scale(0.81);
+            }
+        }
+        .list_nav{
+            width:11.03rem;
+            height:1.4rem;
+            font-size:0;
+            margin:0 auto;
+            margin-top:5.3rem;
+            li{
+                width:2.5rem;
+                height:1.4rem;
+                display:inline-block;
+                position:relative;
+                margin-left:0.18rem;
+                &.active{
+                    .shoadw{
+                        display:none;
+                    }
+                    p{
+                        display:none;
+                    }
+                }
+                &.margin_this{
+                    margin-left:0.22rem;
+                }
+                img{
+                    width:100%;
+                    height:100%;
+                }
+                .shoadw{
+                    position:absolute;
+                    left:0;
+                    right:0;
+                    bottom:0;
+                    top:0;
+                    margin:auto;
+                    background-color:rgba(0,0,0,0.5);
+                }
+                p{
+                    width:100%;
+                    position:absolute;
+                    font-size:0.16rem;
+                    text-align:center;
+                    line-height:0.4rem;
+                    height:0.4rem;
+                    color:white;
+                    background-color:rgba(0,0,0,0.5);
+                    bottom:0;
+                }
             }
         }
     }
+}
+
 //网页设计结束
