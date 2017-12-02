@@ -7,8 +7,6 @@
 		//		number数字转换
 		var numTop = $(".number").offset().top
 		var arr = [10, 2000, 600, 90, 50]
-		$(window).on("scroll", function(e) {
-			var el = $(window).scrollTop()
 			var t = setInterval(move,1000)
 			function move(){
 				$(".number").find("li span").each(function(i, v) {
@@ -26,7 +24,6 @@
 			}
 					
 			
-		})
 //		新闻动态的切换
 		$(".toggle").find("li").on("click",function(){
 			var index = $(this).index()
